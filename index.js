@@ -5,6 +5,7 @@ const cors=require('cors');
 
 const connectDB = require('./src/config/db');
 const authRoutes=require('./src/routes/authRoutes');
+const transactionRoutes = require('./src/routes/transactionroute');
 
 
 
@@ -22,6 +23,7 @@ app.use(express.json());
 //mongodb connection
 connectDB();
 app.use("/api/auth", authRoutes);
+app.use("/api/transactions",transactionRoutes);
 app.get('/',(req,res)=>{
   res.send('finpilot server is on');
 })

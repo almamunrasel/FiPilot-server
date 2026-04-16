@@ -1,5 +1,5 @@
 const express=require('express');
-const { register, login, googleAuth, getMe, updateProfile } = require('../controllers/authController');
+const {register, login, googleAuth, getMe, updateProfile } = require('../controllers/authController');
 const {protected}=require('../middlewares/auth');
 
 

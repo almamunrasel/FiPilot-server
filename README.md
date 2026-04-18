@@ -1,8 +1,7 @@
 # FinPilot — Backend API
 
-### 🌐 Live API: [https://finease-server.vercel.app](https://finease-server.vercel.app)
-### 🔗 Frontend: [https://finease-app.netlify.app](https://finease-app.netlify.app)
-
+### 🌐 https://transaction-client-livid.vercel.app/
+###  
 ---
 
 ## 📌 About
